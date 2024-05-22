@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 const http = require("http").Server(app);
 const stripe = require("stripe")(
-  "sk_test_51P69w5SFbiLnc0CEuhqQsHhXNwN4xUYk52VdKIK9imCqrfwkHopLLTLR3VmMHJlXu6T9ENHqHQQbX5OruQTJYi3s00dVtG6XJx"
+  "sk_test_51PA68JSJPBTss550EXQxCNHGTEEn07SbP3IAJ2ivYBxF0KC4XbcZvqFxjp769zYeweq8Rj6eiUjmgGXGL1BTAwFq001CL9klD1"
 ); // Import and initialize Stripe
 
 const router = express.Router();
